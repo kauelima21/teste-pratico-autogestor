@@ -1,0 +1,14 @@
+{
+  "name": "buscador-cliente-autogestor/kaueslim",
+  "authors": [{
+    "name": "Kauê Leal de Lima",
+    "email": "kaueslim@outlook.com",
+    "role": "developer"
+  }],
+  "description": "Solução para o teste prático para a vaga de Dev Jr da AutoGestor. Feito apenas para fins didáticos.",
+  "autoload": {
+    "psr-4": {
+      "Kaue\\BuscadorClienteAutogestor\\": "src/"
+    }
+  }
+}
