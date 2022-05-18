@@ -9,6 +9,9 @@
   "autoload": {
     "psr-4": {
       "Kaue\\BuscadorClienteAutogestor\\": "src/"
-    }
+    },
+    "files": [
+      "src/Helpers/helpers.php"
+    ]
   }
 }
