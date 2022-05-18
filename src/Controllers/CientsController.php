@@ -9,5 +9,6 @@ class ClientsController
 {
     public function handle(Request $req, Response $res)
     {
+        // retorna todos os clientes em json
     }
 }

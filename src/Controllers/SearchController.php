@@ -9,5 +9,6 @@ class SearchController
 {
     public function handle(Request $req, Response $res)
     {
+        // pega os clientes via cURL
     }
 }

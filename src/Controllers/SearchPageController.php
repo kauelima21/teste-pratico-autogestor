@@ -9,5 +9,6 @@ class SearchPageController
 {
     public function handle(Request $req, Response $res)
     {
+        // renderiza a página de pesquisa
     }
 }
