@@ -8,17 +8,19 @@
   <link rel="stylesheet" href="<?= assestsPath('assets/css/styles.css')?>">
 </head>
 <body>
-  <div class="container">
-    <form action="post">
+  <nav class="menu">
+    <div>
       <a href="https://www.autogestor.net/">
         <img src="<?= assestsPath("assets/img/autogestor.svg"); ?>" alt="AutoGestor">
       </a>
+    </div>
+    <form action="post">
       <div>
         <img id="search_icon" src="<?= assestsPath("assets/img/search-icon.svg"); ?>" alt="AutoGestor">
         <input type="text" placeholder="Pesquise por nome ou categoria">
       </div>
     </form>
-  </div>
+  </nav>
   <script src="<?= assestsPath('assets/js/main.js')?>"></script>
 </body>
 </html>

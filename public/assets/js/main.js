@@ -1,5 +1,5 @@
-const input = document.querySelector(".container form input")
-const inputContainer = document.querySelector(".container form div")
+const input = document.querySelector(".menu form input")
+const inputContainer = document.querySelector(".menu form div")
 
 input.addEventListener('focus', function () {
   inputContainer.classList.add("expand_input");
