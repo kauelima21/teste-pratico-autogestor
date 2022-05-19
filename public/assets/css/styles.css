@@ -55,3 +55,40 @@ a {
 #search_icon {
   height: 20px;
 }
+
+section {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section table {
+  flex-basis: 50%;
+  text-align: center;
+  background: #FFFFFF;
+  border-collapse: collapse;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+section table thead {
+  font-size: 1.25rem;
+  background-color: #BED62F;
+}
+
+section table tbody {
+  font-size: 1.5rem;
+  border-bottom: 5px solid #BED62F;
+}
+
+section table td, section table th {
+  padding: 10px;
+}
+
+section table tbody tr:nth-child(even) {
+  background-color: #bdd62f4f;
+  color: #BED62F;
+  font-weight: bold;
+}

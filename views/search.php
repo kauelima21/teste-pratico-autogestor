@@ -21,6 +21,24 @@
       </div>
     </form>
   </nav>
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Categoria</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Fulano</td>
+        <td>de Tal</td>
+        <td>Categoria D</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
   <script src="<?= assestsPath('assets/js/main.js')?>"></script>
 </body>
 </html>
