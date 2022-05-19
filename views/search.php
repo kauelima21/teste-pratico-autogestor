@@ -14,10 +14,10 @@
         <img src="<?= assestsPath("assets/img/autogestor.svg"); ?>" alt="AutoGestor">
       </a>
     </div>
-    <form action="post">
+    <form method="post">
       <div>
         <img id="search_icon" src="<?= assestsPath("assets/img/search-icon.svg"); ?>" alt="AutoGestor">
-        <input type="text" placeholder="Pesquise por nome ou categoria">
+        <input type="text" name="search" placeholder="Pesquise por nome ou categoria">
       </div>
     </form>
   </nav>
@@ -31,11 +31,13 @@
         </tr>
       </thead>
       <tbody>
-      <tr>
-        <td>Fulano</td>
-        <td>de Tal</td>
-        <td>Categoria D</td>
-      </tr>
+        <?php foreach ($clients as $client): ?>
+          <tr>
+            <td><?= $client->first_name ?></td>
+            <td><?= $client->last_name ?></td>
+            <td><?= $client->name ?></td>
+          </tr>
+        <?php endforeach; ?>
       </tbody>
     </table>
   </section>

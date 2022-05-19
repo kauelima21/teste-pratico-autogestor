@@ -24,7 +24,7 @@ class Client
         return $this->lastName;
     }
 
-    public function getCategory_id()
+    public function getCategoryId()
     {
         return $this->category_id;
     }

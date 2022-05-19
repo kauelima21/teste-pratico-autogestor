@@ -57,15 +57,15 @@ a {
 }
 
 section {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 section table {
+  text-align: left;
   flex-basis: 50%;
-  text-align: center;
   background: #FFFFFF;
   border-collapse: collapse;
   border-top-left-radius: 5px;
